@@ -1,0 +1,8 @@
+name: omnius-cinemeta
+server: bp.common.al
+port: 8080
+domains:
+  - cinemeta.omnius.lol
+build:
+  dockerfile: Dockerfile
+  context: .
